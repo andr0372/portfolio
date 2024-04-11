@@ -175,6 +175,10 @@ h2 {
     font-size: 32px;
 }
 
+.youtube-link {
+    color: black;
+} 
+
 /* Styles Desktop screen */
 @media (min-width: 768px) {
 
