@@ -175,8 +175,8 @@ h2 {
     font-size: 32px;
 }
 
-
-@media (min-width: 767px) {
+/* Styles Desktop screen */
+@media (min-width: 768px) {
 
     .nav-link {
         font-family: "Poppins", sans-serif;
