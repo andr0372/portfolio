@@ -254,8 +254,11 @@ h2 {
     
 
     .about-caju {
-        display: flex;
         flex-direction: row-reverse;
+    }
+
+    .caju {
+        display: flex;
         text-align: left;
     }
 
