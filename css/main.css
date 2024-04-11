@@ -251,22 +251,17 @@ h2 {
     .about-me {
         margin-bottom: 100px;
     }
-    /*
+    
     .about-caju {
         display: flex;
         flex-direction: row-reverse;
-        text-align: left;
-    }
-    */
-
-    .caju {
         text-align: left;
     }
 
     .about {
         text-align: left;
     }
-    
+
     .about-me {
         text-align: left;
         display: flex;
