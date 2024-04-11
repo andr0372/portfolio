@@ -1,0 +1,297 @@
+
+/* Mobile First CSS */
+.body, 
+.navbar {
+    background-color: #FEFAEE;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-toggler, 
+.navbar-toggler:active {
+    border: none;
+
+}
+
+ul, li {
+    display: none;
+}
+
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #B73127;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+  
+/* Style navigation menu links */
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.main-content {
+    background-image: url(../assets/img/cact.png);
+    padding: 10%;
+}
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, 
+.title-banner {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 62px;
+}
+
+.main-title {
+    font-size: 80px;
+}
+
+.contact {
+    background-color: white;
+    border-radius: 60px;
+}
+
+.form {
+    padding: 10%;
+}
+
+.form-control {
+    border-width: 2px;
+    border-radius: 30px;
+}
+    
+.btn {
+    border-radius: 30px;
+    width: 120px;
+}
+
+.title {
+    padding: 10%;
+}
+
+.footer-nav {
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.logo-footer {
+    margin-left: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+.top-banner {
+    background-image: url(../assets/img/cajub.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-b {
+    background-image: url(../assets/img/cact.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5%;
+    width: 100%;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    padding: 0;
+    width: 100%;
+}
+
+.content {
+    margin: 10%;
+}
+
+.about-me {
+    margin-bottom: 50px;
+}
+
+.mobile-stack {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+
+@media (min-width: 767px) {
+
+    .nav-link {
+        font-family: "Poppins", sans-serif;
+        font-size: 21px;
+        color: black;
+    }
+    
+    .nav-link:hover {
+        color: #B73127;
+    }
+
+    ul, 
+    li {
+        display: flex;
+    }
+
+    .navbar {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+
+    .btn {
+        border-radius: 30px;
+        width: 200px;
+    }
+
+    .main-content {
+        background-image: none;
+        margin: 5%;
+        margin-top: 2%;
+        padding: 0;
+    }
+
+    h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+    }
+    
+    
+    .contact-banner {
+        background-image: url(../assets/img/cact.png);
+        background-size: cover;
+        background-position: center;
+        color: white; 
+        text-align: center;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+
+    .lead {
+        font-size: 28px;
+    }
+
+    .main-title {
+        font-size: 120px;
+        text-align: left;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: 95%;
+    }
+
+    .title-banner {
+        font-size: 100px;
+    }
+
+    .about-me {
+        margin-bottom: 100px;
+    }
+    
+
+    .about-caju {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    .about-me {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .caju-img, 
+    .headshot-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 56px;
+    }
+
+
+
+}
