@@ -7,6 +7,9 @@ Bellow will you find details about the process to finish this project.
 
 This portfolio design was based on a High-Fidelity Wireframe and Prototype made on figma. Some creative decisions were necessary to adaquate the High-Fi Wireframes to a functional Web Portfolio.
 
+You can find the link to the figma file below:
+<a href="https://www.figma.com/file/1f0q7zt2sovb0irgiKNYbk/andrighetti_julia_prototype?type=design&node-id=2077%3A281&mode=design&t=fIlIB28Q3YdLCYWC-1">Figma File</a>
+
 ## Creative Process
 
 I started with the HTML and Bootstrap framework for the Home page. After the results were as desired, I started styling the page with CSS with a mobile-first approach, and finally, I added CSS Library for hover animations. There were many challenges with the Bootstrap Grid System and other small details throughout the process. I've referred to Web Development II Learning Material and other external Learning materials like the W3schools website and the Bootstrap docs to ensure everything looked like I had envisioned. I've repeated the process for the Work and Contact pages. The biggest challenge was the layout and toggle animations for the Work page. As my first time using JavaScript, it took me some time to understand the basic workflow and adjust the page to look exactly how I imagined.
